@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap');
 html {
-  --color-main: #00ff8b;
-  --color-main-lighter: #0068FF;
-  --color-text: #F9F9F9;
-  --color-text-lighter: #DDDDDD;
-  --color-background: #1b203c;
-  --font-display: 'Space Grotesk', sans-serif;
-  --font-text: 'Nanum Gothic', sans-serif;
+  --color-main: #FF00B1;
+  --color-main-lighter: #C77DFF;
+  --color-text: #191819;
+  --color-text-lighter: #F7EDF7;
+  --color-background: #CACCCE;
+  --font-display: 'Work Sans', sans-serif;
+  --font-text: 'Space Grotesk', sans-serif;
+}
+
+.cover .cover__title {
+  background-color: #FF00B1;
+  font-size: 80px;
+  word-wrap: break-word;
+}
+.cover .cover__subtitle {
+  background-color: #FF00B1;
+  word-wrap: break-word;
 }
