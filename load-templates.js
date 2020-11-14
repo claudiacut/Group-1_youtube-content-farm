@@ -22,6 +22,7 @@ if (questions.size() > 0) {
       cover.append("div").classed("cover__background", true);
       cover
         .append("h3")
+        .append("mark")
         .text("DensityDesign Lab - Final Synthesis Design Studio 2020/2021")
         .classed("cover__heading", true);
       cover
