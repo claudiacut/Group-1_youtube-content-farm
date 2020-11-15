@@ -12,6 +12,14 @@
 
     <link rel="stylesheet" href="../assets/css/main.css" />
     <link rel="stylesheet" href="../assets/css/custom.css" />
+    <style>
+g#nodes > g {
+  cursor: pointer;
+}
+g#fisso {
+  pointer-events: none;
+}
+</style>
   </head>
   <body>
     <!-- Qua bisognerebbe mettere "go to next qeustion" -->
@@ -19,6 +27,9 @@
     <main class="container" id="question-container">
         <!-- from question.html -->
     </main>
+    <div id="viz-container">
+      <!-- LEAVE EMPTY -->
+    </div>
     <main class="container" id="datasets-container">
       <div class="main-text-title"><h3>Datasets</h3></div>
         <!-- populated by load-templates.js -->
@@ -33,14 +44,8 @@
       integrity="sha512-ia9gcZkLHA+lkNST5XlseHz/No5++YBneMsDp1IZRJSbi1YqQvBeskJuG1kR+PH1w7E0bFgEZegcj0EwpXQnww=="
       crossorigin="anonymous"
     ></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="../load-templates-questions.js"></script>
-    <script>
-        d3.html("./question.html").then(html=>{
-            const questionContent = d3.select(html).selectAll('body > *');
-            questionContent.each(function(d){
-                d3.select("#question-container").node().appendChild(this);
-            })
-        });
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
