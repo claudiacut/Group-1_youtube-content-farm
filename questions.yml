@@ -1,6 +1,6 @@
 - index: 1
-  title: Which are the most used words in Youtube’s most popular videos for kids in their titles?
-  description: Sara è veramente falsa oggi, mi da le castagne ammuffite. Claudia è complice, sa tutto e non fa nulla. Caro diario, non so più che fare, voglio solo della cocaina, ma qui ci sono solo cromosomi in più. 
+  title: Which words have been used the most in the titles of top YT channels for kids during last month?
+  description: Usa questo testo in no more than 400 characters, to give context to the research question. Sometimes it’s useful to start from a known claim (from news articles) about the topic. What is known about this subject and what do you aim to add with your research protocol?
   cover: cover.png
   folder: question-1
   datasets:
@@ -15,7 +15,7 @@
       size: 0.0 KB
       format: .csv
 - index: 2
-  title: Which patterns can be detected in songs’ rhymes uploaded by Cocomelon?
+  title: How Cocomelon re-used its most popular song format over and over in time with almost no variation?
   description: In order to define the type of information that a person can find when he gets in touch with the phenomenon of fake images and wants to go deeper in the knowledge of it, it is necessary to examine the ecosystem in which they spread. The aim of this micro and macro scaled analysis is to understand what issues are actually associated to the query and if the approach in the digital world is critical or purely informative.
   cover: cover.png
   folder: question-2
@@ -31,7 +31,7 @@
       size: 0.0 KB
       format: .csv
 - index: 3
-  title: How has YouTube's most viewed kids channel, “Cocomelon”, been rearranging the thumbnails of their videos?
+  title: How Cocomelon’s thumbnails evolved from 2006 until now and which strategies could be detected?
   description: Given the great media resonance and wide audience they reach, relevant events are more likely to generate both positive debate and opportunities for falsification. In this scenario, it is interesting to highlight the possible creation and dissemination of visual misinformation about an event and the response to it, which is translated into the number of sites that declare an image false. At the same time, the aim is to study whether the awareness of the phenomenon has increased over time and whether specific types of events are more subject to debunking.
   folder: question-3
   cover: cover.png
