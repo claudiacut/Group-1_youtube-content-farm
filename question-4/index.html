@@ -12,9 +12,17 @@
 
     <link rel="stylesheet" href="../assets/css/main.css" />
     <link rel="stylesheet" href="../assets/css/custom.css" />
+    <style>
+g#nodes > g {
+  cursor: pointer;
+}
+g#fisso {
+  pointer-events: none;
+}
+</style>
   </head>
   <body>
-    <!-- Qua bisognerebbe mettere "go to next qeustion" -->
+    <!-- Qua bisognerebbe mettere "go to next question" -->
     <header id="questions-navigation"></header>
     <main class="container" id="question-container">
         <!-- from question.html -->
@@ -34,13 +42,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="../load-templates-questions.js"></script>
-    <script>
-        d3.html("./question.html").then(html=>{
-            const questionContent = d3.select(html).selectAll('body > *');
-            questionContent.each(function(d){
-                d3.select("#question-container").node().appendChild(this);
-            })
-        });
-    </script>
+   <script src="./script.js"></script>
   </body>
 </html>
