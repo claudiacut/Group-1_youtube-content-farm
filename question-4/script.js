@@ -10,8 +10,8 @@ let container = document.querySelector("#visualization");
 container.appendChild(svgNode);
 
    const clusters = d3.selectAll("#interazione > g");
-   const node = d3.selectAll("#node > g");
-    const img = d3.selectAll("#img > g");
+   const node = d3.selectAll("#node-2 > g");
+    const img = d3.selectAll("#img-2 > g");
 
   clusters.on("mouseover", function(){
     // console.log(this);
