@@ -11,14 +11,14 @@ container.appendChild(svgNode);
 
   const clusters = d3.selectAll("#nodes > g");
 
-  clusters.on("click", function(){
+  clusters.on("mouseover", function(){
     // console.log(this);
     clusters.style("opacity","0.1");
 
     d3.select(this).style("opacity","1");
   });
 
-  d3.select("#sfondo").on("click",function(){
+  d3.select("#sfondo").on("mouseover",function(){
     clusters.style("opacity","1");
   });
 
