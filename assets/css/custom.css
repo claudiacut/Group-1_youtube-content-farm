@@ -11,16 +11,18 @@ html {
   --font-text: 'Space Grotesk', sans-serif;
 }
 
+mark{
+    color:white;
+    background-color:#FF00B1;
+}
 .cover .cover__heading {
   color: #FF00B1;
 }
 .cover .cover__title {
-  background-color: #FF00B1;
   font-size: 80px;
   word-wrap: break-word;
 }
 .cover .cover__subtitle {
-  background-color: #FF00B1;
   word-wrap: break-word;
 }
 
