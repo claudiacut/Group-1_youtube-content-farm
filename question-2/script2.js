@@ -16,17 +16,19 @@ container.appendChild(svgNode);
     const base = d3.selectAll('#base');
 
 
-    clusters.on('mouseover', function(){
-      clusters.style('opacity',0.0);
-      fake.style('opacity',0.1);
+    clusters.on('click', function(){
+clusters.style('opacity',0.0);
+      fake.transition().duration(1).ease(d3.easeLinear).style('opacity',0.08);
   	// «this» refers to hovering element
-      d3.select(this).style('opacity',1);
+      d3.select(this).transition().delay(1).ease(d3.easeLinear).style('opacity',1);
     });
     // bind a hover event to the rectangle in the background
     // to reset selection
     // use mouseover for the hover selection
-    d3.select('#background').on('mouseover', function(){
-      clusters.style('opacity',1);
+    d3.select('#background').on('click', function(){
+      clusters.transition().duration(1).ease(d3.easeLinear).style('opacity',1);
     });
+
+
 
 });
