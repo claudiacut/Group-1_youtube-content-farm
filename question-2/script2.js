@@ -11,10 +11,14 @@ container.appendChild(svgNode);
 
 
     const clusters = d3.selectAll('#nodes > g');
+    const fake = d3.selectAll('#fake');
+    // console.log(fake);
     const base = d3.selectAll('#base');
 
+
     clusters.on('mouseover', function(){
-      clusters.style('opacity',0.3);
+      clusters.style('opacity',0.0);
+      fake.style('opacity',0.1);
   	// «this» refers to hovering element
       d3.select(this).style('opacity',1);
     });
