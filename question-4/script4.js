@@ -26,16 +26,21 @@ Promise.all([d3.html("./question.html"), d3.html("./viz4.svg")]).then(function([
 
 
 
-  related1.on('click', function() {
-
+  related1.on('mouseover', function() {
     online_videos.style('opacity', 0.5);
     missing_data.style('opacity', 0.5);
-
     fake.transition().duration(1).ease(d3.easeLinear).style('opacity', 0.5);
     d3.select(this).transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
   });
 
-  d3.select('#sfondo').on('click', function(){
+  related2.on('mouseover', function() {
+    online_videos.style('opacity', 0.5);
+    missing_data.style('opacity', 0.5);
+    fake.transition().duration(1).ease(d3.easeLinear).style('opacity', 0.5);
+    d3.select(this).transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
+  });
+
+  d3.select('#sfondo').on('mouseover', function(){
     fake.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
   });
 
