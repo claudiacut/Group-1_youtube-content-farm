@@ -15,12 +15,12 @@ container.appendChild(svgNode);
   clusters.on("click", function(){
     // console.log(this);
     clusters.style("opacity","0");
-    fake.transition().duration(1).ease(d3.easeLinear).style("opacity","0.7");
-    d3.select(this).transition().delay(1).ease(d3.easeLinear).style("opacity","1");
+    fake.transition().duration(6).ease(d3.easeLinear).style("opacity","0.7");
+    d3.select(this).transition().duration(4).ease(d3.easeLinear).style("opacity","1");
   });
 
   d3.select("#sfondo").on("click",function(){
-    clusters.transition().duration(2).ease(d3.easeLinear).style("opacity","1");
+    clusters.transition().duration(0.5).ease(d3.easeLinear).style("opacity","1");
   });
 //
 //    const prova = d3.selectAll("#songs1 > g");
