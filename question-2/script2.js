@@ -18,7 +18,7 @@ container.appendChild(svgNode);
 
     clusters.on('click', function(){
 clusters.style('opacity',0.0);
-      fake.transition().duration(1).ease(d3.easeLinear).style('opacity',0.08);
+      fake.transition().duration(1).ease(d3.easeLinear).style('opacity',0.2);
   	// «this» refers to hovering element
       d3.select(this).transition().delay(1).ease(d3.easeLinear).style('opacity',1);
     });
@@ -26,9 +26,6 @@ clusters.style('opacity',0.0);
     // to reset selection
     // use mouseover for the hover selection
     d3.select('#background').on('click', function(){
-      clusters.transition().duration(1).ease(d3.easeLinear).style('opacity',1);
+      clusters.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
     });
-
-
-
 });
