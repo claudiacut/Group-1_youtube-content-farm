@@ -14,21 +14,37 @@ Promise.all([d3.html("./question.html"), d3.html("./viz4.svg")]).then(function([
   //non metto > g perchè non ci sono sottolovelli
   const palline = d3.selectAll('#palle > g');
 
-  const liv1 = d3.select('#liv1');
-  const img1 = d3.select('#img1');
+  const liv144 = d3.select('#liv144');
+  const img144 = d3.select('#img144');
+  const liv125 = d3.select('#liv125');
+  const img125 = d3.select('#img125');
 
 
-  img1.style('opacity', 0);
+  img144.style('opacity', 0);
 
-    liv1.on('mouseover', function() {
+    liv144.on('mouseover', function() {
     palline.transition().duration(1).ease(d3.easeLinear).style('opacity', 0.05);
     d3.select(this).transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
-    img1.transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
+    img144.transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
   });
+
+
+  img125.style('opacity', 0);
+
+    liv125.on('mouseover', function() {
+    palline.transition().duration(1).ease(d3.easeLinear).style('opacity', 0.05);
+    d3.select(this).transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
+    img125.transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
+  });
+
 
   d3.select('#sfondo').on('mouseover', function(){
     palline.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
-    img1.transition().duration(200).ease(d3.easeLinear).style('opacity', 0);
+    img144.transition().duration(200).ease(d3.easeLinear).style('opacity', 0);
+    img125.transition().duration(200).ease(d3.easeLinear).style('opacity', 0);
   });
+
+
+
 
 });
