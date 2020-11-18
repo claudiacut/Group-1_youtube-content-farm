@@ -33,3 +33,9 @@ mark{
 svg {
     
 }
+
+p.border {
+    border-style: solid;
+    border-color: #FF00B1;
+    padding: 1%;
+}
