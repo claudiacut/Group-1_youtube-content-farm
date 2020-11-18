@@ -1,6 +1,7 @@
 - index: 1
   title: Which are the most used words in Youtube’s most popular videos for kids in their titles?
-  description: One of the first operations to reach more views is to choose the right title. In this study we demonstrate how top 10 channels for kids choose theirs in a short period of time, revealing their strategy.
+  description: One of the first operations to get more views is choosing the right title. In this study we demonstrate how top 10 channels “Made for kids” choose theirs in a short period of time, revealing their strategy. Depictable patterns have been put under the spotlight, not only in terms of words used, but even in successful channels’ behaviours.                     A comparative study has been done, eased by a full visualisation of channels’ titles, copied from YT and just set side by side.
+
   cover: cover.png
   folder: question-1
   datasets:
