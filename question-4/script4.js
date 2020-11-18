@@ -14,12 +14,10 @@ Promise.all([d3.html("./question.html"), d3.html("./viz4.svg")]).then(function([
   //non metto > g perchè non ci sono sottolovelli
   const palline = d3.selectAll('#palle > g');
   const fake = d3.selectAll('#fake > g');
-  const related = d3.select('#liv114');
+  const liv114 = d3.select('#liv114');
+  const img114 = d3.select('#img114');
 
-  var img114;
-  function preload() {
-  img114 = loadImage("./posts/114.jpg");
-};
+  img114.style('opacity', 0);
 
 
 
@@ -27,16 +25,20 @@ Promise.all([d3.html("./question.html"), d3.html("./viz4.svg")]).then(function([
 
 
 
-  palline.on('mouseover', function() {
+
+
+  // palline.on('mouseover', function() {
+  //   palline.transition().duration(1).ease(d3.easeLinear).style('opacity', 0.05);
+  //   d3.select(this).transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
+  //   liv114.transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
+  // });
+
+
+  liv114.on('mouseover', function() {
     palline.transition().duration(1).ease(d3.easeLinear).style('opacity', 0.05);
     d3.select(this).transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
-    related.transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
-  });
+    img114.transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
 
-
-  related.on('mouseover', function() {
-    palline.transition().duration(1).ease(d3.easeLinear).style('opacity', 0.05);
-    d3.select(this).transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
 
   });
 //creare classe per i related
@@ -45,13 +47,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz4.svg")]).then(function([
 
   d3.select('#sfondo').on('mouseover', function(){
     palline.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+    img114.transition().duration(200).ease(d3.easeLinear).style('opacity', 0);
   });
 
 });
-
-
-function draw() {
-  // variable containing the loaded image, x, y, [width, height]
-  image(img114, 0, 0, img114.width, img114.height);
-
-}
