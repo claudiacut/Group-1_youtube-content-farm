@@ -17,7 +17,7 @@
       format: .csv
 - index: 2
   title: Which patterns can be detected in songs’ rhymes uploaded by Cocomelon?
-  description: Cocomelon is the second most watched channel on Youtube and it is specialised in songs. But, like most, it does not lose occasions to exploit trends, setting quality aside. After all, kids love repetition.
+  description: Cocomelon is the second most watched channel on Youtube and it is specialised in songs. Its popularity is so great that it got into merchandising and, from June 2020, it collects views even on Netflix. Anyhow, like most of the channels, it does not lose occasions to exploit trends, setting quality aside. In this study we argue how it is possible to hide behind children’s love for repetitions, to work less and appeal the algorithm more.
   cover: cover.png
   folder: question-2
   datasets:
@@ -33,7 +33,8 @@
       format: .csv
 - index: 3
   title: How has YouTube's most viewed kids channel, “Cocomelon”, been rearranging the thumbnails of their videos?
-  description: Since its great success, it seemed interesting to us to go deeper into Cocomelon’s mechanisms. We then went back in history to check how the channel changed its previews in time, until it found the perfect format.
+  description: Since its great success, combined with a blurry ownership past, it seemed interesting to us to go deeper into Cocomelon’s mechanisms. We then went back in history to check how the channel changed its thumbnails in time, until it found the perfect format. Thumbnails are indeed fundamental to set an aesthetic and to reach early age children, still not able to read.
+
   folder: question-3
   cover: cover.png
   datasets:
@@ -49,7 +50,7 @@
       format: .csv
 - index: 4
   title: What are the most common reasons for which a YT video is reported on “Elsagate” sub-Reddit?
-  description: The phenomenon of channels tricking children using their favourite characters to convey wrong messages unfortunately has a long life. The dedicated sub-Reddit was one of the first to mobilize people against this and still now represents a good platform to rise consciousness.
+  description: The phenomenon of channels tricking children using their favourite cartoons characters to convey wrong messages, unfortunately has a long life. This sub-Reddit was one of the first to mobilize people against this and still now represents a good platform to raise consciousness. Here all “parental warning” posts of the platform are analysed, offering visual references and a possible connection with reports effectiveness.
   folder: question-4
   cover: cover.png
   datasets:
