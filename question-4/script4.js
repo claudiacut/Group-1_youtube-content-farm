@@ -13,9 +13,9 @@ Promise.all([d3.html("./question.html"), d3.html("./viz4.svg")]).then(function([
   // const clusters = d3.selectAll('#nodes > g');
   //non metto > g perchè non ci sono sottolovelli
   const palline = d3.selectAll('#palle > g');
-  const img = d3.selectAll('#fake');
-  const liv1 = d3.select('#liv114');
-  const img1 = d3.select('#img114');
+
+  const liv1 = d3.select('#liv1');
+  const img1 = d3.select('#img1');
 
 
   img1.style('opacity', 0);
