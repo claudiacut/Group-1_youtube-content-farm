@@ -33,6 +33,8 @@ Promise.all([d3.html("./question.html"), d3.html("./viz4.svg")]).then(function([
     d3.select(this).transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
   });
 
+//creare classe per i related
+//quando c'è over per uno, far scomparire gli altri related
   related2.on('mouseover', function() {
     online_videos.style('opacity', 0.5);
     missing_data.style('opacity', 0.5);
