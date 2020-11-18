@@ -68,7 +68,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     var active = _2006.active ? false : true,
       newOpacity = active ? 0 : 1;
     // Hide or show the elements
-    _2006.style("opacity", newOpacity);
+    _2006.transition().duration(100).ease(d3.easeLinear).style("opacity", newOpacity);
     // Update whether or not the elements are active
     _2006.active = active;
   });
@@ -79,7 +79,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     var active = _2007.active ? false : true,
       newOpacity = active ? 0 : 1;
     // Hide or show the elements
-    _2007.style("opacity", newOpacity);
+    _2007.transition().duration(100).ease(d3.easeLinear).style("opacity", newOpacity);
     // Update whether or not the elements are active
     _2007.active = active;
   });
@@ -91,7 +91,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     var active = _2010.active ? false : true,
       newOpacity = active ? 0 : 1;
     // Hide or show the elements
-    _2010.style("opacity", newOpacity);
+    _2010.transition().duration(100).ease(d3.easeLinear).style("opacity", newOpacity);
     // Update whether or not the elements are active
     _2010.active = active;
   });
@@ -102,7 +102,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     var active = _2011.active ? false : true,
       newOpacity = active ? 0 : 1;
     // Hide or show the elements
-    _2011.style("opacity", newOpacity);
+    _2011.transition().duration(100).ease(d3.easeLinear).style("opacity", newOpacity);
     // Update whether or not the elements are active
     _2011.active = active;
   });
@@ -113,7 +113,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     var active = _2012.active ? false : true,
       newOpacity = active ? 0 : 1;
     // Hide or show the elements
-    _2012.style("opacity", newOpacity);
+    _2012.transition().duration(100).ease(d3.easeLinear).style("opacity", newOpacity);
     // Update whether or not the elements are active
     _2012.active = active;
   });
@@ -124,7 +124,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     var active = _2013.active ? false : true,
       newOpacity = active ? 0 : 1;
     // Hide or show the elements
-    _2013.style("opacity", newOpacity);
+    _2013.transition().duration(100).ease(d3.easeLinear).style("opacity", newOpacity);
     // Update whether or not the elements are active
     _2013.active = active;
   });
@@ -135,7 +135,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     var active = _2014.active ? false : true,
       newOpacity = active ? 0 : 1;
     // Hide or show the elements
-    _2014.style("opacity", newOpacity);
+    _2014.transition().duration(100).ease(d3.easeLinear).style("opacity", newOpacity);
     // Update whether or not the elements are active
     _2014.active = active;
   });
@@ -146,7 +146,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     var active = _2015.active ? false : true,
       newOpacity = active ? 0 : 1;
     // Hide or show the elements
-    _2015.style("opacity", newOpacity);
+    _2015.transition().duration(100).ease(d3.easeLinear).style("opacity", newOpacity);
     // Update whether or not the elements are active
     _2015.active = active;
   });
@@ -157,7 +157,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     var active = _2016.active ? false : true,
       newOpacity = active ? 0 : 1;
     // Hide or show the elements
-    _2016.style("opacity", newOpacity);
+    _2016.transition().duration(100).ease(d3.easeLinear).style("opacity", newOpacity);
     // Update whether or not the elements are active
     _2016.active = active;
   });
@@ -168,7 +168,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     var active = _2017.active ? false : true,
       newOpacity = active ? 0 : 1;
     // Hide or show the elements
-    _2017.style("opacity", newOpacity);
+    _2017.transition().duration(100).ease(d3.easeLinear).style("opacity", newOpacity);
     // Update whether or not the elements are active
     _2017.active = active;
   });
@@ -179,7 +179,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     var active = _2018.active ? false : true,
       newOpacity = active ? 0 : 1;
     // Hide or show the elements
-    _2018.style("opacity", newOpacity);
+    _2018.transition().duration(100).ease(d3.easeLinear).style("opacity", newOpacity);
     // Update whether or not the elements are active
     _2018.active = active;
   });
@@ -190,7 +190,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     var active = _2019.active ? false : true,
       newOpacity = active ? 0 : 1;
     // Hide or show the elements
-    _2019.style("opacity", newOpacity);
+    _2019.transition().duration(100).ease(d3.easeLinear).style("opacity", newOpacity);
     // Update whether or not the elements are active
     _2019.active = active;
   });
@@ -201,7 +201,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     var active = _2020.active ? false : true,
       newOpacity = active ? 0 : 1;
     // Hide or show the elements
-    _2020.style("opacity", newOpacity);
+    _2020.transition().duration(100).ease(d3.easeLinear).style("opacity", newOpacity);
     // Update whether or not the elements are active
     _2020.active = active;
   });
