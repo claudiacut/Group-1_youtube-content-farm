@@ -12,38 +12,46 @@ Promise.all([d3.html("./question.html"), d3.html("./viz4.svg")]).then(function([
 
   // const clusters = d3.selectAll('#nodes > g');
   //non metto > g perchè non ci sono sottolovelli
-  const fake = d3.selectAll('#fake');
-  const related1 = d3.selectAll('#related1');
-  const related2 = d3.selectAll('#related2');
-  const related3 = d3.selectAll('#related3');
-  const online_videos = d3.selectAll('#online_videos');
-  const missing_data = d3.selectAll('#missing_data');
+  const palline = d3.selectAll('#palle > g');
+  const fake = d3.selectAll('#fake > g');
+  const related = d3.select('#liv114');
 
-
-  related1.style('opacity', 0.0);
-  related2.style('opacity', 0.0);
-  related3.style('opacity', 0.0);
+  var img114;
+  function preload() {
+  img114 = loadImage("./posts/114.jpg");
+};
 
 
 
-  related1.on('mouseover', function() {
-    online_videos.style('opacity', 0.5);
-    missing_data.style('opacity', 0.5);
-    fake.transition().duration(1).ease(d3.easeLinear).style('opacity', 0.5);
+
+
+
+
+  palline.on('mouseover', function() {
+    palline.transition().duration(1).ease(d3.easeLinear).style('opacity', 0.05);
     d3.select(this).transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
+    related.transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
   });
 
+
+  related.on('mouseover', function() {
+    palline.transition().duration(1).ease(d3.easeLinear).style('opacity', 0.05);
+    d3.select(this).transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
+
+  });
 //creare classe per i related
 //quando c'è over per uno, far scomparire gli altri related
-  related2.on('mouseover', function() {
-    online_videos.style('opacity', 0.5);
-    missing_data.style('opacity', 0.5);
-    fake.transition().duration(1).ease(d3.easeLinear).style('opacity', 0.5);
-    d3.select(this).transition().duration(200).ease(d3.easeLinear).style('opacity', 1);
-  });
+
 
   d3.select('#sfondo').on('mouseover', function(){
-    fake.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+    palline.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
   });
 
 });
+
+
+function draw() {
+  // variable containing the loaded image, x, y, [width, height]
+  image(img114, 0, 0, img114.width, img114.height);
+
+}
