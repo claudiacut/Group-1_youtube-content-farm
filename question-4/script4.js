@@ -22,13 +22,18 @@ Promise.all([d3.html("./question.html"), d3.html("./viz4.svg")]).then(function([
 //        });
 
 const palline = d3.selectAll("#palle > g");
+//    POTREBBE ESSERE COSì // const img = d3.selectAll("image");
 palline.each(function(){
-  palline.on('click', function(){
+  palline.on('mouseover', function(){
     palline.style("opacity",0.05);
     d3.select(this).style("opacity",1);
   }); // DAI CAZZOOOOOOOOOOO
 });
 
+//    background reset
+   d3.select('#sfondo').on('mouseover', function(){
+     palline.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+       });
 
 });
   // document.querySelectorAll('#palle').forEach(function(item){
