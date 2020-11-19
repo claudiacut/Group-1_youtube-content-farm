@@ -315,10 +315,30 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     _2006.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
 
 
+
 });
+//FUNZIONA ANCHE CON OVER // AUMENTA
+d3.select('#_2014').selectAll('image').each(function(d,i){
+  console.log(this.height);
+  console.log(d3.select(this));
+  d3.select(this).on('click', function(){
+    d3.select(this).attr("transform", "translate(0 0) scale(1.0)");
+    d3.select(this).attr("width", 400);
+    // ALTRIMENTI USARE SCALE
+    console.log(this.height);
+  })
+
+})
 
 
 
+/*d3.selectAll('g').forEach((el, i) => {
+  console.log(el);
+  el.on('click', function(){
+    this.attribute('height', 200);
+    console.log("hello");
+  })
+});*/
 
 
 
