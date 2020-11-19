@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap');
+@import url("https://use.typekit.net/oiz5icx.css");
 
 html {
   --color-main: #FF00B1;
@@ -8,7 +9,7 @@ html {
   --color-text: #191819;
   --color-text-lighter: #F7EDF7;
   --color-background: #CACCCE;
-  --font-display: 'Work Sans', sans-serif;
+  --font-display: 'Work Sans', serif;
   --font-text: 'Space Grotesk', sans-serif;
 }
 
