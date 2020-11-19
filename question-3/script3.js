@@ -207,6 +207,24 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
   });
 
 
+  d3.select('#sfondo').on('click', function(){
+    _2020.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+    _2019.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+    _2018.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+    _2017.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+    _2016.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+    _2015.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+    _2014.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+    _2013.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+    _2012.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+    _2011.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+    _2010.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+    _2009.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+    _2007.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+    _2006.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+
+
+});
 
 
 
