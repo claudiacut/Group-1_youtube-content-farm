@@ -44,3 +44,11 @@ p.border {
     border-color: #FF00B1;
     padding: 1%;
 }
+
+.img-position {
+    position: absolute;
+    visibility: hidden;
+    max-width: 14%;
+    left: 20%;
+    top: 72%;
+}
