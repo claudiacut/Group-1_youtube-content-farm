@@ -32,9 +32,13 @@ Promise.all([d3.html("./question.html"), d3.html("./viz4.svg")]).then(function([
 //});
 
     const cerchi = d3.select("#palle").selectAll("g").selectAll("circle");
+    const img = d3.select("#palle").selectAll("g").selectAll("image");
     cerchi.each(function(){
-        d3.select("#img").style("opacity",0);
+        img.style("opacity",0);
+        
         d3.select(this).on("click", function(){
+//             d3.select("image").style("opacity",1);
+            d3.selectAll("g").select("image").style("opacity",1);
             var circleUnderMouse = this;
             cerchi.style("fill",function(){
                 
@@ -42,15 +46,10 @@ Promise.all([d3.html("./question.html"), d3.html("./viz4.svg")]).then(function([
             });
             
 //            d3.select(this).style("opacity",1);
-            
-//           
         
-            
         });
-        
-        
+         
     });
-// 
 
       // background reset
    d3.select('#sfondo').on('click', function(){
