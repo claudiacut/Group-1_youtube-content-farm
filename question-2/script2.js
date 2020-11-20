@@ -18,7 +18,7 @@ container.appendChild(svgNode);
 
     clusters.on('click', function(){
 clusters.style('opacity',0.0);
-      fake.transition().duration(1).ease(d3.easeLinear).style('opacity',0.5);
+      fake.transition().duration(1).ease(d3.easeLinear).style('opacity',1);
   	// «this» refers to hovering element
       d3.select(this).transition().duration(200).ease(d3.easeLinear).style('opacity',1);
     });
