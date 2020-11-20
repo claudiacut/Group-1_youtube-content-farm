@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap');
 @import url("https://use.typekit.net/oiz5icx.css");
 @import url("https://use.typekit.net/oiz5icx.css");
-@import url("https://use.typekit.net/oiz5icx.css"); 
+@import url("https://use.typekit.net/oiz5icx.css");
 @import url("https://use.typekit.net/oiz5icx.css");
 @import url("https://use.typekit.net/dxo3itn.css");
 
@@ -37,15 +37,22 @@ mark{
 }
 
 svg {
-    
+
 }
 
 p.border {
-    border-style: solid;
-    border-color: #FF00B1;
-    padding: 1%;
+    border-style:  solid;
+    border-color: #191819;
+    padding: 2%;
+    box-shadow: 0.2em 0.2em #191819;
 }
 
+#nopad {
+  border-style:  solid;
+  border-color: #191819;
+    padding: 1%;
+
+}
 /*
 .img-position {
     position: absolute;
