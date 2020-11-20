@@ -33,23 +33,29 @@ Promise.all([d3.html("./question.html"), d3.html("./viz4.svg")]).then(function([
 
     const cerchi = d3.select("#palle").selectAll("g").selectAll("circle");
     cerchi.each(function(){
-        
+        d3.select("#img").style("opacity",0);
         d3.select(this).on("click", function(){
             var circleUnderMouse = this;
             cerchi.style("fill",function(){
                 
                 return (this === circleUnderMouse) ? null : "#caccce";
             });
-            d3.select(this).style("opacity",1);
-            d3.select("#img").style("opacity",0);
+            
+//            d3.select(this).style("opacity",1);
+            
+//           
+        
+            
         });
+        
+        
     });
 // 
 
-//    background reset
-//   d3.select('#sfondo').on('mouseover', function(){
-//     palline.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
-//       });
+      // background reset
+   d3.select('#sfondo').on('click', function(){
+     cerchi.transition().duration(2).ease(d3.easeLinear).style('fill', null);
+       });
 
 });
   // document.querySelectorAll('#palle').forEach(function(item){
