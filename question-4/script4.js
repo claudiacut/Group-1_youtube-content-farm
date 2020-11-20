@@ -30,31 +30,40 @@ Promise.all([d3.html("./question.html"), d3.html("./viz4.svg")]).then(function([
 //      d3.select("#img").style("opacity",0);
 //  }); // DAI CAZZOOOOOOOOOOO
 //});
-
+    var ciao=null;
     const cerchi = d3.select("#palle").selectAll("g").selectAll("circle");
+    const img = d3.select("#palle").selectAll("g").selectAll("g").selectAll("image");
+    
+//    img.each(function(){
+//        console.log("image");
+//    }); stampa le immagini
+    
     cerchi.each(function(){
-        d3.select("#img").style("opacity",0);
+        img.style("opacity",0);
+        
         d3.select(this).on("click", function(){
+//            
+            if(ciao!=null){ ciao.style("opacity",0);}
+            ciao=d3.select(this.parentNode).select("image");
+            
+            
+            d3.select(this.parentNode).select("image").style("opacity",1);
             var circleUnderMouse = this;
             cerchi.style("fill",function(){
                 
                 return (this === circleUnderMouse) ? null : "#caccce";
             });
             
-//            d3.select(this).style("opacity",1);
-            
-//           
+//          
         
-            
         });
-        
-        
+         
     });
-// 
 
       // background reset
    d3.select('#sfondo').on('click', function(){
      cerchi.transition().duration(2).ease(d3.easeLinear).style('fill', null);
+       img.style("opacity",0);
        });
 
 });
