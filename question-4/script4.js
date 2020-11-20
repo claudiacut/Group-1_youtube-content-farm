@@ -41,7 +41,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz4.svg")]).then(function([
     cerchi.each(function(){
         img.style("opacity",0);
         
-        d3.select(this).on("click", function(){
+        d3.select(this).on("mouseover", function(){
 //            
             if(ciao!=null){ ciao.style("opacity",0);}
             ciao=d3.select(this.parentNode).select("image");
@@ -61,7 +61,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz4.svg")]).then(function([
     });
 
       // background reset
-   d3.select('#sfondo').on('click', function(){
+   d3.select('#sfondo').on('mouseover', function(){
      cerchi.transition().duration(2).ease(d3.easeLinear).style('fill', null);
        img.style("opacity",0);
        });
