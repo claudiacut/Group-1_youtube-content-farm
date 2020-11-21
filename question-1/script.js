@@ -38,16 +38,24 @@ container.appendChild(svgNode);
   const good = d3.select("#good");
   const bus = d3.select("#bus");
   const go = d3.select("#go");
+  const colors = d3.select("#colors");
+  const yes = d3.select("#yes");
+  const cars = d3.select("#cars");
+  const shark = d3.select("#shark");
+  const cartoon = d3.select("#cartoon");
+  const toys = d3.select("#toys");
+  const stories = d3.select("#stories");
 
 
-  clusters.on("click", function(){
+
+  clusters.on("mouseover", function(){
     // console.log(this);
     clusters.style("opacity","0");
     fake.transition().duration(6).ease(d3.easeLinear).style("opacity","0.7");
     d3.select(this).transition().duration(4).ease(d3.easeLinear).style("opacity","1");
   });
 
-  white.on("click", function(){
+  white.on("mouseover", function(){
     // console.log(this);
     clusters.style("opacity","0");
     fake.transition().duration(6).ease(d3.easeLinear).style("opacity","0.7");
@@ -76,11 +84,18 @@ container.appendChild(svgNode);
     good.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
     bus.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
     go.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
-    
+    colors.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
+    yes.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
+    cars.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
+    shark.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
+    cartoon.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
+    toys.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
+    stories.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
+
   });
 
 
-  d3.select("#sfondo").on("click",function(){
+  d3.select("#sfondo").on("mouseover",function(){
     clusters.transition().duration(0.5).ease(d3.easeLinear).style("opacity","1");
   });
 
