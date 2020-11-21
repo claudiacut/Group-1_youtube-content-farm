@@ -13,6 +13,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     var vizz=null;
   const anni = d3.selectAll("#anni").selectAll("g");
   const img = d3.selectAll("#anni").selectAll("g").selectAll("image");
+  const ombre = d3.selectAll("#anni").selectAll("g").selectAll("rect");
     console.log("img");
 
 
@@ -24,9 +25,10 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
           
        
         img.style("opacity",0);
+          ombre.style("opacity",0);
         
         d3.select(this).selectAll("image").style("opacity",1);
-          
+           d3.select(this).selectAll("rect").style("opacity",1);
 
           });
 
@@ -35,6 +37,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
 
     d3.select('#sfondo').on('click', function(){
        img.style("opacity",1);
+        ombre.style("opacity",1);
     });
     
 //  var vizz=null;
