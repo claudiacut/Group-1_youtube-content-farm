@@ -34,9 +34,10 @@ container.appendChild(svgNode);
   const police = d3.select("#police");
   const little = d3.select("#little");
   const monsters = d3.select("#monsters");
-  const house = d3.select("#house");
   const neww = d3.select("#new");
   const good = d3.select("#good");
+  const bus = d3.select("#bus");
+  const go = d3.select("#go");
 
 
   clusters.on("click", function(){
@@ -71,9 +72,11 @@ container.appendChild(svgNode);
     police.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
     little.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
     monsters.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
-    house.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
     neww.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
     good.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
+    bus.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
+    go.transition().duration(4).ease(d3.easeLinear).style("opacity","1");
+    
   });
 
 
