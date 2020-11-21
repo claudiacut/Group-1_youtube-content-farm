@@ -5,7 +5,7 @@
   folder: question-1
   datasets:
     - name: Social Blade
-      description: Top “made for kids” channels’ titles. This dataset is composed of 10 pages, one for each channel studied, plus the first one where repetitions are counted. In each channels’ sheet, the full last 25 titles are shown (from 11 November 2020 backwards), together with their publication date.
+      description: Top “made for kids” channels’ titles. This dataset is composed of 10 pages, one for each channel studied, plus the first one where repetitions are counted. In each channels’ sheet, the full last 25 titles are shown (from 1st November 2020 backwards), together with their publication date.
       src: https://drive.google.com/file/d/1PTW_ADLhLWXB7UoMmhrKuTgrxVsOB8o0/view?usp=sharing
       size: 62 KB
       format: .xlsx
