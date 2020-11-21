@@ -6,7 +6,8 @@
 @import url("https://use.typekit.net/oiz5icx.css");
 @import url("https://use.typekit.net/oiz5icx.css");
 @import url("https://use.typekit.net/dxo3itn.css");
-
+@import url("https://use.typekit.net/dxo3itn.css");
+@import url("https://use.typekit.net/dxo3itn.css");
 
 
 html {
@@ -15,7 +16,7 @@ html {
   --color-text: #191819;
   --color-text-lighter: #F7EDF7;
   --color-background: #CACCCE;
- --font-display: 'azo-sans-web', sans-serif;
+ --font-display: 'rigid-square', sans-serif;
   --font-text: 'Space Grotesk', sans-serif;
 }
 
