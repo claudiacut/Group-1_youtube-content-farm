@@ -11,23 +11,28 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     
     
   var vizz=null;
-  const anni = d3.selectAll("#anni").d3.selectAll("g");
-  const img = d3.selectAll("#anni").d3.selectAll("g").d3.selectAll("image");
+  const anni = d3.select("#anni").selectAll("g");
+  const img = d3.select("#anni").selectAll("g").selectAll("image");
+    console.log("img");
+    
+    
   
   anni.each(function(){
-      img.style("opacity",0);
-      
+      img.style("opacity",1);
       d3.select(this).on("click", function(){
 
         if(vizz!=null){ vizz.style("opacity",0);}
-        vizz=d3.select(this.parentNode).selectAll("image");
+        vizz=d3.select(this.parentNode).select("image");
           
           });
-      d3.select(this.parentNode).selectAll("image").style("opacity",1);
+      d3.select(this.parentNode).select("image").style("opacity",1);
       });
     d3.select('#sfondo').on('click', function(){
        img.style("opacity",1);
     });
+    
+    
+    
      });
 //
 //   const _2006 = d3.selectAll('#_2006 > g');
