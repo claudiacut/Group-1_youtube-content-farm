@@ -8,6 +8,62 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
   let container = document.querySelector("#visualization");
   // console.log(container);
   container.appendChild(svgNode);
+    
+    
+    var vizz=null;
+  const anni = d3.selectAll("#anni").selectAll("g");
+  const img = d3.selectAll("#anni").selectAll("g").selectAll("image");
+  const ombre = d3.selectAll("#anni").selectAll("g").selectAll("rect");
+    console.log("img");
+
+
+
+  anni.each(function(){
+      
+      d3.select(this).on("click", function(){
+         
+          
+       
+        img.style("opacity",0);
+          ombre.style("opacity",0);
+        
+        d3.select(this).selectAll("image").style("opacity",1);
+           d3.select(this).selectAll("rect").style("opacity",1);
+
+          });
+
+      });
+
+
+    d3.select('#sfondo').on('click', function(){
+       img.style("opacity",1);
+        ombre.style("opacity",1);
+    });
+    
+//  var vizz=null;
+//  const anni = d3.select("#anni").selectAll("g");
+//  const img = d3.select("#anni").selectAll("g").selectAll("image");
+//    console.log("img");
+//    
+//    
+//  
+//  anni.each(function(){
+//      img.style("opacity",1);
+//      d3.select(this).on("click", function(){
+//
+//        if(vizz!=null){ vizz.style("opacity",0);}
+//        vizz=d3.select(this.parentNode).select("image");
+//          
+//          });
+//      d3.select(this.parentNode).select("image").style("opacity",1);
+//      });
+//    d3.select('#sfondo').on('click', function(){
+//       img.style("opacity",1);
+//    });
+//    
+//    
+    
+     });
 //
 //   const _2006 = d3.selectAll('#_2006 > g');
 //   const t23 = d3.selectAll("#t23 > g");
@@ -343,4 +399,4 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
 
 
 
-});
+

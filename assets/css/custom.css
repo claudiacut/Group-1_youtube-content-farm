@@ -48,6 +48,14 @@ p.border {
     box-shadow: 0.2em 0.2em #191819;
 }
 
+.shadow {
+    border-style:  solid;
+    border-color: #191819;
+    border-width: 0.1em;
+    box-shadow: 0.2em 0.2em #191819;
+}
+
+
 
 
 /*
