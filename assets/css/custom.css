@@ -7,13 +7,15 @@
 @import url("https://use.typekit.net/oiz5icx.css");
 @import url("https://use.typekit.net/dxo3itn.css");
 
+
+
 html {
   --color-main: #FF00B1;
   --color-main-lighter: #C77DFF;
   --color-text: #191819;
   --color-text-lighter: #F7EDF7;
   --color-background: #CACCCE;
-  --font-display: 'azo-sans-web', sans-serif;
+ --font-display: 'azo-sans-web', sans-serif;
   --font-text: 'Space Grotesk', sans-serif;
 }
 
