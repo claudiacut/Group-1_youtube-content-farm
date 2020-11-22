@@ -65,17 +65,17 @@ container.appendChild(svgNode);
     dad.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
     mysterious.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
     adventures.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
-    dolls.transition().duration(1).ease(d3.easeLinear).style("opacity","1");
-    school.transition().duration(1).ease(d3.easeLinear).style("opacity","1");
-    house.transition().duration(1).ease(d3.easeLinear).style("opacity","1");
-    happy.transition().duration(1).ease(d3.easeLinear).style("opacity","1");
-    friends.transition().duration(1).ease(d3.easeLinear).style("opacity","1");
-    food.transition().duration(1).ease(d3.easeLinear).style("opacity","1");
-    family.transition().duration(1).ease(d3.easeLinear).style("opacity","1");
-    classics.transition().duration(1).ease(d3.easeLinear).style("opacity","1");
-    challenge.transition().duration(1).ease(d3.easeLinear).style("opacity","1");
-    best.transition().duration(1).ease(d3.easeLinear).style("opacity","1");
-    away.transition().duration(1).ease(d3.easeLinear).style("opacity","1");
+    dolls.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
+    school.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
+    house.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
+    happy.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
+    friends.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
+    food.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
+    family.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
+    classics.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
+    challenge.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
+    best.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
+    away.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
     animals.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
     police.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
     little.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
@@ -96,7 +96,7 @@ container.appendChild(svgNode);
 
 
   d3.select("#sfondo").on("mouseover",function(){
-    clusters.transition().duration(0.5).ease(d3.easeLinear).style("opacity","1");
+    clusters.transition().duration(0).ease(d3.easeLinear).style("opacity","1");
   });
 
 });
