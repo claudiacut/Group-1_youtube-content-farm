@@ -16,23 +16,23 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
   const ombre = d3.selectAll("#anni").selectAll("g").selectAll("rect");
     console.log("img");
 
-    img.style("opacity",0);
-      ombre.style("opacity",0);
+    img.style("opacity",1);
+      ombre.style("opacity",1);
 
   anni.each(function(){
       d3.select(this).on("click", function(){
 
 
           var active = img.active ? false : true,
-           newOpacity = active ? 0 : 1;
+           newOpacity = active ? 1 : 0;
 
            var active2 = ombre.active ? false : true,
-            newOpacity = active ? 0 : 1;
+            newOpacity = active ? 1 : 0;
 
 
 
-        d3.select(this).selectAll("image").transition().duration(100).ease(d3.easeLinear).style("opacity", newOpacity);
-           d3.select(this).selectAll("rect").style("opacity", newOpacity);
+        d3.select(this).selectAll("image").transition().duration(100).style("opacity", newOpacity);
+           d3.select(this).selectAll("rect").transition().duration(50).ease(d3.easeLinear).style("opacity", newOpacity);
 
            img.active = active;
            ombre.active = active;
