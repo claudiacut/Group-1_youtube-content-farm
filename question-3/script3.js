@@ -13,7 +13,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     var vizz=null;
   const anni = d3.selectAll("#anni").selectAll("g");
   const img = d3.selectAll("#anni").selectAll("g").selectAll("image");
-  const ombre = d3.selectAll("#anni").selectAll("g").selectAll("rect");
+  const ombre = d3.selectAll("#anni").selectAll("g").selectAll(".ombra");
 
 
 
@@ -26,19 +26,14 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
       d3.select(this).on("click", function(){
 
 
-          var active = img.active ? false : true,
-           newOpacity = active ? 1 : 0;
+          img.style("opacity",0);
+           ombre.style("opacity",0);
 
-           var active2 = ombre.active ? false : true,
-            newOpacity = active ? 1 : 0;
+        d3.select(this).selectAll("image").transition().duration(80).ease(d3.easeLinear).style("opacity", 1);
+        // d3.select(this).selectAll("rect").style("opacity", 1);
+        d3.select(this).selectAll(".ombra").style("opacity",1);
 
 
-
-        d3.select(this).selectAll("image").transition().duration(80).ease(d3.easeLinear).style("opacity", newOpacity);
-           d3.select(this).selectAll("rect").style("opacity", newOpacity);
-
-           img.active = active;
-           ombre.active = active;
           });
       });
 
