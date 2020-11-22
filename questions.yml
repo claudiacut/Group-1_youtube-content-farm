@@ -70,7 +70,7 @@
   title: What are the most common reasons why a YT video is reported on r/ElsaGate sub-Reddit?
   description: The phenomenon of channels tricking children using their favourite cartoons characters to convey wrong messages, unfortunately has a long life. r/Elsagate sub-Reddit was one of the first to mobilize people against this and still now represents a good option to raise consciousness. Here all “parental warning” posts of the platform are analysed, offering visual references and questioning the usefulness of this tool.
   folder: question-4
-  cover: cover.png
+  cover: cover4.gif
   datasets:
     - name: Reddit
       description: This dataset contains all the posts ever published on the dedicated sub-Reddit (data collection closing date 14 November 2020), labeled with “parental warning” tag. Each post is presented together with the image used to report, its title, related link, number of upvotes and its current situation on Youtube (with link to YT when still online). Some posts are listed more than once, because they belong to more than one problematic.
