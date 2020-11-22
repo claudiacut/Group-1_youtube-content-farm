@@ -11,7 +11,7 @@ container.appendChild(svgNode);
 
   const clusters = d3.selectAll("#nodes > g");
   const fake = d3.selectAll("#fake");
-  const white = d3.select("#sq_32_");
+  const white = d3.select("#questo");
   //white clusters
   const compilation = d3.select("#compilation");
   const rain = d3.select("#rain");
