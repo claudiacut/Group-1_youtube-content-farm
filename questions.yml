@@ -6,7 +6,7 @@
   datasets:
     - name: Youtube
       description: This dataset is composed of two pages. In the first sheet repetitions are counted, while in the second the full last 25 titles of each channel are shown (from 1st November 2020 backwards), together with their publication date.
-      src: https://drive.google.com/file/d/1PTW_ADLhLWXB7UoMmhrKuTgrxVsOB8o0/view?usp=sharing
+      src: https://docs.google.com/spreadsheets/d/1ncH8jt87CR7rGphdj_ILrw60ZRJVnFQ4z6iY6TM6AAI/edit?usp=sharing
       size: 62 KB
       format: .xlsx
     - name: Source

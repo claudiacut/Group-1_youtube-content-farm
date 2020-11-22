@@ -63,7 +63,7 @@ if (datasetsContainer.size() > 0) {
 
     titleDownload
       .append("a")
-      .attr("href", (d) => d.src)
+      .attr("href", (d) => d.src).attr("target","_blank")
       .append('p')
       .attr("download", (d) => d.src)
       .text((d) => d.name);
@@ -71,14 +71,14 @@ if (datasetsContainer.size() > 0) {
     titleDownload
       .append("a")
       .classed('info', true)
-      .attr("href", (d) => d.src)
+      .attr("href", (d) => d.src).attr("target","_blank")
       .attr("download", (d) => d.src)
       .text((d) => d.size);
 
     titleDownload
       .append("a")
       .classed('info', true)
-      .attr("href", (d) => d.src)
+      .attr("href", (d) => d.src).attr("target","_blank")
       .attr("download", (d) => d.src)
       .text((d) => d.format);
 
