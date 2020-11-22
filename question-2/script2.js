@@ -22,9 +22,7 @@ clusters.style('opacity',0.0);
   	// «this» refers to hovering element
       d3.select(this).transition().duration(200).ease(d3.easeLinear).style('opacity',1);
     });
-    // bind a hover event to the rectangle in the background
-    // to reset selection
-    // use mouseover for the hover selection
+    
     d3.select('#background').on('click', function(){
       clusters.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
     });
