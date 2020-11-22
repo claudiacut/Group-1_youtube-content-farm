@@ -20,10 +20,10 @@ body {
 }
 
 .dots {
-  width: 100%;
+  width: 50%;
   margin: 5rem auto 5rem auto;
-  border-bottom: 1px solid;
-  border-color: white;
+  border-bottom: 1.7px solid;
+  border-color: black;
 }
 
 h1,
@@ -152,7 +152,7 @@ main.container > * {
   transition: 0.3s ease opacity;
   column-gap: 1.5rem;
   /* divisione */
-  border-bottom: 1px solid white;
+  border-bottom: 1.7px solid black;
 }
 
 #questions .question__card h2 {
