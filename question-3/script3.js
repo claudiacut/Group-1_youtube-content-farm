@@ -31,8 +31,8 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
 
 
 
-        d3.select(this).selectAll("image").transition().duration(100).style("opacity", newOpacity);
-           d3.select(this).selectAll("rect").transition().duration(50).ease(d3.easeLinear).style("opacity", newOpacity);
+        d3.select(this).selectAll("image").transition().duration(80).ease(d3.easeLinear).style("opacity", newOpacity);
+           d3.select(this).selectAll("rect").style("opacity", newOpacity);
 
            img.active = active;
            ombre.active = active;
