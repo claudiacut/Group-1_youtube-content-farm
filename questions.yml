@@ -5,20 +5,20 @@
   folder: question-1
   datasets:
     - name: Youtube
-      description: Top “made for kids” channels’ titles. This dataset is composed of 10 pages, one for each channel studied, plus the first one where repetitions are counted. In each channels’ sheet, the full last 25 titles are shown (from 1st November 2020 backwards), together with their publication date.
+      description: This dataset is composed of two pages. In the first sheet repetitions are counted, while in the second the full last 25 titles of each channel are shown (from 1st November 2020 backwards), together with their publication date.
       src: https://drive.google.com/file/d/1PTW_ADLhLWXB7UoMmhrKuTgrxVsOB8o0/view?usp=sharing
       size: 62 KB
       format: .xlsx
     - name: Source
       description: YouTube Has Kid Troubles Because Kids Are a Core Audience | Wired
       src: https://www.wired.com/story/youtube-kid-troubles-kids-core-audience/
-      size: 
-      format: 
+      size:
+      format:
     - name: Source
       description: A Week in the Life of Popular YouTube Channels | Pew Research Center
       src: https://www.pewresearch.org/internet/2019/07/25/a-week-in-the-life-of-popular-youtube-channels/
-      size: 
-      format: 
+      size:
+      format:
     # - name: Google News
     #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     #   src: ugly-data.csv
