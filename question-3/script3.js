@@ -8,61 +8,90 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
   let container = document.querySelector("#visualization");
   // console.log(container);
   container.appendChild(svgNode);
-    
-    
+
+
     var vizz=null;
   const anni = d3.selectAll("#anni").selectAll("g");
   const img = d3.selectAll("#anni").selectAll("g").selectAll("image");
   const ombre = d3.selectAll("#anni").selectAll("g").selectAll("rect");
     console.log("img");
 
-
+    img.style("opacity",1);
+      ombre.style("opacity",1);
 
   anni.each(function(){
-      
       d3.select(this).on("click", function(){
-         
-          
-       
-        img.style("opacity",0);
-          ombre.style("opacity",0);
-        
-        d3.select(this).selectAll("image").style("opacity",1);
-           d3.select(this).selectAll("rect").style("opacity",1);
 
+
+          var active = img.active ? false : true,
+           newOpacity = active ? 1 : 0;
+
+           var active2 = ombre.active ? false : true,
+            newOpacity = active ? 1 : 0;
+
+
+
+        d3.select(this).selectAll("image").transition().duration(100).style("opacity", newOpacity);
+           d3.select(this).selectAll("rect").transition().duration(50).ease(d3.easeLinear).style("opacity", newOpacity);
+
+           img.active = active;
+           ombre.active = active;
           });
-
       });
-
 
     d3.select('#sfondo').on('click', function(){
        img.style("opacity",1);
         ombre.style("opacity",1);
     });
-    
+
+
+
+
+    //2011
+    //   t26.on("click", function() {
+    //     // Determine if current line is visible
+    //     var active = _2011.active ? false : true,
+    //       newOpacity = active ? 0 : 1;
+    //     // Hide or show the elements
+    //     _2011.transition().duration(100).ease(d3.easeLinear).style("opacity", newOpacity);
+    //     // Update whether or not the elements are active
+    //     _2011.active = active;
+    //
+    //     var active = t26.active ? false : true,
+    //       newOpacity = active ? 0.3 : 1;
+    //     // Hide or show the elements
+    //     t26.transition().duration(100).ease(d3.easeLinear).style("opacity", newOpacity);
+    //     // Update whether or not the elements are active
+    //     t26.active = active;
+    //   });
+
+
+
+
+
 //  var vizz=null;
 //  const anni = d3.select("#anni").selectAll("g");
 //  const img = d3.select("#anni").selectAll("g").selectAll("image");
 //    console.log("img");
-//    
-//    
-//  
+//
+//
+//
 //  anni.each(function(){
 //      img.style("opacity",1);
 //      d3.select(this).on("click", function(){
 //
 //        if(vizz!=null){ vizz.style("opacity",0);}
 //        vizz=d3.select(this.parentNode).select("image");
-//          
+//
 //          });
 //      d3.select(this.parentNode).select("image").style("opacity",1);
 //      });
 //    d3.select('#sfondo').on('click', function(){
 //       img.style("opacity",1);
 //    });
-//    
-//    
-    
+//
+//
+
      });
 //
 //   const _2006 = d3.selectAll('#_2006 > g');
@@ -395,8 +424,3 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
     console.log("hello");
   })
 });*/
-
-
-
-
-
