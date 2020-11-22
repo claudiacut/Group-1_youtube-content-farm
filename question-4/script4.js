@@ -19,7 +19,6 @@ Promise.all([d3.html("./question.html"), d3.html("./viz4.svg")]).then(function([
         img.style("opacity",0);
 
         d3.select(this).on("mouseover", function(){
-//
             if(ciao!=null){ ciao.style("opacity",0);}
             ciao=d3.select(this.parentNode).select("image");
 
@@ -44,7 +43,6 @@ Promise.all([d3.html("./question.html"), d3.html("./viz4.svg")]).then(function([
                 return (this === circleUnderMouse) ? null : "#caccce";
             });
 
-//
         });
 
     });
