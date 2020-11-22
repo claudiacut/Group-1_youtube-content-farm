@@ -23,7 +23,7 @@
     - name: YouTube
       description: Cocomelon’s “Yes Yes” songs. In this dataset information of the three different versions of the format are provided in three separated sheets. Together with videos lyrics, titles, data of publication, views, descriptions, id and duration, variant of the format is specified. In the last column,  presence of the video in a compilation or single song video publication is pointed out.
       src: https://docs.google.com/spreadsheets/d/19P1RSdbuKL4xOmIjm4j7nUiGsHNr5VO0E_ygRKvRKa8/edit?usp=sharing
-      size: 123 KB
+      size: 121 KB
       format: .xlsx
     # - name: Google News
     #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -39,7 +39,7 @@
     - name: YouTube
       description: Cocomelon’s thumbnails. From this dataset it is possible to see all video publications of Cocomelon, in a separated sheet for each year, from 2016 until now. For each video are provided image, id, data of publication, title, description, duration and some other data regarding engagement and popularity.
       src: https://drive.google.com/file/d/199ojEaSR8WZwklAVGNu6CejPdyRccuB5/view?usp=sharing
-      size: 62 MB
+      size: 62,2 MB
       format: .csv
     # - name: Google News
     #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dataset retrieved on 01/02/2003.
@@ -48,14 +48,14 @@
     #   format: .csv
 - index: 4
   title: What are the most common reasons why a YT video is reported on r/ElsaGate sub-Reddit?
-  description: The phenomenon of channels tricking children using their favourite cartoons characters to convey wrong messages, unfortunately has a long life. r/Elsagate sub-Reddit was one of the first to mobilize people against this and still now represents a good platform to raise consciousness. Here all “parental warning” posts of the platform are analysed, offering visual references and questioning the usefulness of this tool.
+  description: The phenomenon of channels tricking children using their favourite cartoons characters to convey wrong messages, unfortunately has a long life. r/Elsagate sub-Reddit was one of the first to mobilize people against this and still now represents a good option to raise consciousness. Here all “parental warning” posts of the platform are analysed, offering visual references and questioning the usefulness of this tool.
   folder: question-4
   cover: cover.png
   datasets:
     - name: Reddit
       description: This dataset contains all the posts ever published on the dedicated sub-Reddit, labeled with “parental warning” tag. For each post is given its image used to report, its title, related link, number of upvotes and its current situation on Youtube (with link to YT when still online). Some posts are listed more than once, because they belong to more than one problematic.
       src: https://docs.google.com/spreadsheets/d/1fztGRY69S85yC0AMC9kaT69trSXNEp1x0ElO7HJOlYA/edit?usp=sharing
-      size: 42 MB
+      size: 22,4 MB
       format: .xlsx
     # - name: Google News
     #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dataset retrieved on 01/02/2003.
