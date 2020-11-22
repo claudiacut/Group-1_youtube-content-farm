@@ -9,16 +9,16 @@
       src: https://docs.google.com/spreadsheets/d/1ncH8jt87CR7rGphdj_ILrw60ZRJVnFQ4z6iY6TM6AAI/edit?usp=sharing
       size: 62 KB
       format: .xlsx
-    - name: Source
-      description: YouTube Has Kid Troubles Because Kids Are a Core Audience | Wired
-      src: https://www.wired.com/story/youtube-kid-troubles-kids-core-audience/
-      size:
-      format:
-    - name: Source
-      description: A Week in the Life of Popular YouTube Channels | Pew Research Center
-      src: https://www.pewresearch.org/internet/2019/07/25/a-week-in-the-life-of-popular-youtube-channels/
-      size:
-      format:
+    - name: Webliography
+      description: Online Research Sources
+      src: https://docs.google.com/document/d/1sm-FCTYqjz_K9K7iwyMRHVSii1J6MSqVLmIL48QyW9M/edit
+      size: 7 KB
+      format: .doc
+#    - name: Source
+#      description: A Week in the Life of Popular YouTube Channels | Pew Research Center
+#      src: https://www.pewresearch.org/internet/2019/07/25/a-week-in-the-life-of-popular-youtube-channels/
+#      size:
+#      format:
     # - name: Google News
     #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     #   src: ugly-data.csv
@@ -35,6 +35,11 @@
       src: https://docs.google.com/spreadsheets/d/19P1RSdbuKL4xOmIjm4j7nUiGsHNr5VO0E_ygRKvRKa8/edit?usp=sharing
       size: 121 KB
       format: .xlsx
+    - name: Webliography
+      description: Online Research Sources
+      src: https://docs.google.com/document/d/1j-x_x7jj97RHLqDdyx2CzWmZZsRKfWo-o850J0KoDgU/edit
+      size: 7 KB
+      format: .doc
     # - name: Google News
     #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     #   src: ugly-data.csv
@@ -50,7 +55,12 @@
       description: From this dataset it is possible to see all video publications of Cocomelon (data collection closing date 30 October 2020), in a separated sheet for each year, from 2006 until now. For each video thumbnail’s image is provided together with id, data of publication, title, description, duration and some other data regarding engagement and popularity.
       src: https://drive.google.com/file/d/199ojEaSR8WZwklAVGNu6CejPdyRccuB5/view?usp=sharing
       size: 62,2 MB
-      format: .csv
+      format: .xlsx
+    - name: Webliography
+      description: Online Research Sources
+      src: https://docs.google.com/document/d/1KDwj8ezcHhmnoLqtU-VGgLnumQdZBrxkTudfQjlPknk/edit
+      size: 7 KB
+      format: .doc
     # - name: Google News
     #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dataset retrieved on 01/02/2003.
     #   src: ugly-data.csv
@@ -67,6 +77,11 @@
       src: https://docs.google.com/spreadsheets/d/1fztGRY69S85yC0AMC9kaT69trSXNEp1x0ElO7HJOlYA/edit?usp=sharing
       size: 22,4 MB
       format: .xlsx
+    - name: Webliography
+      description: Online Research Sources
+      src: https://docs.google.com/document/d/18Tgh4Uu1FU2my2Lhyxg1N0czw2k-VJGYf2YUiJp0X6E/edit
+      size: 8 KB
+      format: .doc
     # - name: Google News
     #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dataset retrieved on 01/02/2003.
     #   src: ugly-data.csv
