@@ -14,7 +14,7 @@ Promise.all([d3.html("./question.html"), d3.html("./viz3.svg")]).then(function([
   const anni = d3.selectAll("#anni").selectAll("g");
   const img = d3.selectAll("#anni").selectAll("g").selectAll("image");
   const ombre = d3.selectAll("#anni").selectAll("g").selectAll("rect");
-    console.log("img");
+    console.log("Wandaaaaaaa tvb");
 
     img.style("opacity",1);
       ombre.style("opacity",1);
