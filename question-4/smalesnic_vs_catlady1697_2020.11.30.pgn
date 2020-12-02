@@ -1,0 +1,17 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.11.30"]
+[Round "?"]
+[White "smalesnic"]
+[Black "catlady1697"]
+[Result "1-0"]
+[ECO "A21"]
+[WhiteElo "503"]
+[BlackElo "466"]
+[TimeControl "600"]
+[EndTime "7:37:11 PST"]
+[Termination "smalesnic won by resignation"]
+
+1. c4 {[%timestamp 1]} 1... e5 {[%timestamp 1]} 2. Nc3 {[%timestamp 15]} 2...
+Qg5 {[%timestamp 47]} 3. d4 {[%timestamp 110]} 3... Bb4 {[%timestamp 44]} 4.
+Bxg5 {[%timestamp 33]} 1-0
