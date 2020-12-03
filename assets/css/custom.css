@@ -66,10 +66,10 @@ p.border {
   border-color: black;
 }
 
-a {
+.link {
    text-decoration: underline;
 }
 
-a:hover {
+.link:hover {
   color: #00ff8b;
 }

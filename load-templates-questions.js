@@ -9,6 +9,7 @@ if (questionsNavigation.size() > 0) {
       .append("h4")
       .text("Home");
 
+
     const questionsList = questionsNavigation
       .append("div")
       .classed("questions--list", true);
