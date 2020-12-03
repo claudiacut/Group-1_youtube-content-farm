@@ -20,10 +20,10 @@ container.appendChild(svgNode);
 clusters.style('opacity',0.0);
       fake.transition().duration(1).ease(d3.easeLinear).style('opacity',1);
   	// «this» refers to hovering element
-      d3.select(this).transition().duration(200).ease(d3.easeLinear).style('opacity',1);
+      d3.select(this).transition().duration(2).ease(d3.easeLinear).style('opacity',1);
     });
-    
+
     d3.select('#background').on('click', function(){
-      clusters.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+      clusters.transition().duration(1).ease(d3.easeLinear).style('opacity',1);
     });
 });
