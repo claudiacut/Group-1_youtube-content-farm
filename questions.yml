@@ -1,5 +1,5 @@
 - index: 1
-  title: Which words have been used the most in the titles of top YT channels for kids during last month?
+  title: Which words have been used the most in the titles of top YouTube channels for kids during last month?
   description: One of the first operations to get more views is choosing the right title. In this study we demonstrate how top 10 channels “Made for kids” choose theirs in a short period of time, revealing their strategy. Patterns have been put under the spotlight, not only in terms of words used, but even in successful channels’ behaviours. A comparative study has been done, eased by a full visualisation of channels’ titles, taken from YT and just set side by side.
   cover: cover1.gif
   folder: question-1
@@ -16,7 +16,7 @@
       format: .doc
 
 - index: 2
-  title: How has Cocomelon YT channel been re-using its most popular song format from May 2017 until now with almost no variation? 
+  title: How has Cocomelon YouTube channel been re-using its most popular song format from May 2017 until now with almost no variation?
   description: Cocomelon is the second most watched channel on Youtube and it is specialised in songs. Its popularity is so great that it got into merchandising and, from June 2020, it collects views even on Netflix. Anyhow, like most of the channels, it does not lose occasions to exploit trends, setting quality aside. In this study we argue how it is possible to hide behind children’s love for repetitions, to work less and appeal the algorithm more.
   cover: cover2.gif
   folder: question-2
@@ -58,7 +58,7 @@
     #   size: 0.0 KB
     #   format: .csv
 - index: 4
-  title: What are the most common reasons why a YT video is reported on r/ElsaGate sub-Reddit?
+  title: What are the most common reasons why a YouTube video is reported on r/ElsaGate sub-Reddit?
   description: The phenomenon of channels tricking children using their favourite cartoons characters to convey wrong messages, unfortunately has a long life. r/Elsagate sub-Reddit was one of the first to mobilize people against this and still now represents a good option to raise consciousness. Here all “parental warning” posts of the platform are analysed, offering visual references and questioning the usefulness of this tool.
   folder: question-4
   cover: cover4.gif
